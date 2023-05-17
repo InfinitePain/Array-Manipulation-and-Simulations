@@ -283,6 +283,8 @@ void scanInt(int max_digits, int *result)
 		else if (ch == 27)
 		{
 			*result = -1;
+			curs_set(0);
+			return;
 		}
 		else
 		{
@@ -492,6 +494,7 @@ void scanFloatInt(int int_max_digits, int frac_max_digits, FloatInt *FI)
 		{
 			FI->value = -1;
 			FI->point = -1;
+			curs_set(0);
 			return;
 		}
 		else
