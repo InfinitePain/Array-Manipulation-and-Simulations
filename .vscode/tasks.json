@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++ MinGW64 Build",
+			"command": "gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${workspaceFolder}/main.c",
+				"${workspaceFolder}/utilities.c",
+				"-o",
+				"${workspaceFolder}/bin/Array-Manipulation-and-Simulations.exe",
+				"-I",
+				"C:/msys64/mingw64/include/ncurses",
+				"-lmenuw",
+				"-lncursesw",
+			],            
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "Task for MinGW64 compiler to build active file"
+		}
+	]
+}
