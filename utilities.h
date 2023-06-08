@@ -3,7 +3,7 @@
  Name        : utilities.h
  Author      : InfinitePain
  License     : Apache License 2.0
- Description : Header file for Ascii-Numeric Utility
+ Description : Header file for Array-Manipulation-and-Simulations
 =============================================================================
 */
 

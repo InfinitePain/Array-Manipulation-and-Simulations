@@ -3,7 +3,7 @@
  Name        : utilities.c
  Author      : InfinitePain
  License     : Apache License 2.0
- Description : Source file for Ascii-Numeric Utility
+ Description : Source file for Array-Manipulation-and-Simulations
 =============================================================================
 */
 
